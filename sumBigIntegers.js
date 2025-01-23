@@ -6,6 +6,11 @@
 */
 
 function sumBigIntegers(numStr1, numStr2) {
-  // 'your code here'
-  return 'your code here'
+  return (BigInt(numStr1) + (BigInt(numStr2)));
 }
+
+console.log(sumBigIntegers('800732331219254740991', '9007199254740991'));
+console.log(sumBigIntegers('54244152507199254740991', '6451151207199254740991'));
+console.log(sumBigIntegers('706323421199254740991', '17244121254740991'));
+console.log(sumBigIntegers('9007199254740991', '421511156207199254740991'));
+console.log(sumBigIntegers('52515007199254740991', '3444141121444325254740991'));

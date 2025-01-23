@@ -14,5 +14,12 @@
 */
 
 function greetByName(msg, name) {
-  return 'your code here'
+
+  return `${msg} , ${name}`;
+
 }
+
+console.log(greetByName('Hello' , 'John'))
+console.log(greetByName('Bye' , 'Alex'))
+console.log(greetByName('Greetings to' , 'Oleksandr'))
+console.log(greetByName('Bouncin' , 'Skywalker'))
